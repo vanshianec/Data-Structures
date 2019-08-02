@@ -17,7 +17,7 @@ public class ArrayList<T> {
         this.count = 0;
     }
 
-    public int count() {
+    public int getCount() {
         return this.count;
     }
 

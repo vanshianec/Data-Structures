@@ -12,6 +12,6 @@ public class Main {
         System.out.println(arrayList.get(0));
         System.out.println(arrayList.get(1));
         System.out.println(arrayList.get(4));
-        System.out.println(arrayList.count());
+        System.out.println(arrayList.getCount());
     }
 }
