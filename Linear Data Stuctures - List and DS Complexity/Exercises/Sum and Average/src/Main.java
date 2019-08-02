@@ -16,6 +16,6 @@ public class Main {
         List<Integer> numbers = Arrays.stream(inputLine.split("\\s+")).map(Integer::parseInt).collect(Collectors.toList());
         int sum = numbers.stream().reduce((a, b) -> a + b).get();
         double average = (double) sum / numbers.size();
-        System.out.printf("Sum = %d; Average = %.2f%n", sum, average);
+        System.out.printf("Sum=%d; Average=%.2f%n", sum, average);
     }
 }
